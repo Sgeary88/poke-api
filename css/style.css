@@ -1,0 +1,58 @@
+/*************************** NAVBAR STYLES  ***************************************/
+#topNav {
+	margin: 0 2rem;
+}
+
+.navbar-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar-logo img {
+	width: 150px;
+}
+
+.navbar-nav {
+	display: flex;
+}
+
+.navbar-nav li {
+	margin-right: 32px;
+	font-size: 1.5rem;
+}
+
+.navbar-nav li:nth-child(4) {
+	margin-right: 0;
+}
+
+/*************************** HERO STYLES  ***************************************/
+
+.hero-container {
+	display: flex;
+}
+
+.left-hero {
+	max-width: 1009px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 3.5rem;
+}
+
+.left-hero h1 {
+	font-size: 5rem;
+}
+
+.left-hero button {
+	font-size: 1.5rem;
+	background-color: gray;
+	padding: 1rem 2rem;
+	cursor: pointer;
+	margin-top: 3rem;
+}
+
+.right-hero img {
+	border-radius: 150px 0 0 150px;
+}
