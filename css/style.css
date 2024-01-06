@@ -56,3 +56,24 @@
 .right-hero img {
 	border-radius: 150px 0 0 150px;
 }
+
+
+/*************************** FEATURED STYLES  ***************************************/
+
+.card {
+	display: flex;
+	align-items: center;
+	border: 1px solid black;
+	max-width: 300px;
+}
+
+.card-image {
+	max-width: 100px;
+	padding-left: 16px;
+}
+
+.card-info {
+	font-size: 1.5rem;
+	padding-left: 16px;
+}
+

@@ -1,3 +1,8 @@
+:root {
+	--primary-color: #2a518f;
+	--secondary-color: #632673;
+}
+
 *,
 ::after,
 ::before {
