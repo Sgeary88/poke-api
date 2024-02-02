@@ -10,7 +10,7 @@
 }
 
 .navbar-logo img {
-	width: 150px;
+	width: 200px;
 }
 
 .navbar-nav {
@@ -28,10 +28,6 @@
 
 /*************************** HERO STYLES  ***************************************/
 
-.hero-container {
-	display: flex;
-}
-
 .left-hero {
 	max-width: 1009px;
 	display: flex;
@@ -39,6 +35,7 @@
 	justify-content: center;
 	align-items: flex-start;
 	padding: 3.5rem;
+	color: white;
 }
 
 .left-hero h1 {
@@ -50,7 +47,7 @@
 	background-color: gray;
 	padding: 1rem 2rem;
 	cursor: pointer;
-	margin-top: 3rem;
+	margin-top: 5rem;
 }
 
 .right-hero img {
@@ -60,14 +57,25 @@
 
 /*************************** FEATURED STYLES  ***************************************/
 
-.card {
-	display: flex;
-	align-items: center;
-	border: 1px solid black;
-	max-width: 300px;
+.featured-header {
+	color: white;
+	margin: 5rem 0;
 }
 
-.card-image {
+.featured-header h2 {
+	font-size: 3rem;
+}
+
+/* .card {
+	border: 1px solid white;
+	max-width: 300px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-image img {
 	max-width: 100px;
 	padding-left: 16px;
 }
@@ -75,5 +83,48 @@
 .card-info {
 	font-size: 1.5rem;
 	padding-left: 16px;
+} */
+
+.featured-cards {
+	display: flex;
 }
+
+.featured-wrapper {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin: 30px 15px;
+  border: 1px solid transparent;
+  min-height: 100px;
+  border-radius: 100px;
+  min-width: 250px;
+	background-color: #e3e7e3;
+}
+
+.card-info {
+  margin-right: 15px;
+  margin-left: 30px;
+	font-size: 1.2rem;
+	color: #262626;
+}
+
+.card-image-wrapper {
+  background-color: #9cc29b;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image img {
+  max-width: 80px;
+}
+
+
 

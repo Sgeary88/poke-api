@@ -1,3 +1,4 @@
+
 :root {
 	--primary-color: #2a518f;
 	--secondary-color: #632673;
@@ -9,6 +10,24 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+}
+
+body {
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url('/img/pokeball-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: contrast(1.1) hue-rotate(95deg) saturate(1.3);
 }
 
 ul { list-style: none; }
